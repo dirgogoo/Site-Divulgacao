@@ -8,9 +8,115 @@
 
 
 section{
-    min-height: 100vh;
-    padding-top: 1rem;
+    min-height: 0vh;
+    padding-top: 0rem;
 }
+
+/* --------------------------- FINALIZAÇÃO DO SITE ------------------------------------ */
+.end {
+    background-color: #FFFFFF;
+    color: #000000;
+    width: 100%;
+    height: auto;
+    padding-top: 10px;
+}
+/* --- Div END-SUP --- */
+.end-sup {
+    
+    padding: 4% 5%;
+}
+.end-sup a {
+    text-decoration: none;
+    color: #000000;
+}
+.box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.box a h2 {
+    font-size: 1.2em;
+}
+
+/* BOX Institucional */
+.institucional {
+    width: fit-content;
+}
+.institucional .insti-text{
+   display: flex;
+   flex-direction: column;
+   min-height: 25px;
+}
+.insti-text a {
+    padding-top: 10px;
+}
+
+/* BOX CURSOS */
+.box-curso {
+    width: fit-content;
+}
+.box-curso .curso-text{
+    display: flex;
+    flex-direction: column;
+    min-height: 25px;
+ }
+ .curso-text a {
+     padding-top: 10px;
+ }
+/* --- BOX PESQUISA --- */
+.pesquisa {
+    width: fit-content;
+}
+.pesquisa .search-text {
+    display: flex;
+    flex-direction: column;
+    min-height: 25px;
+}
+.search-text a {
+    padding-top: 10px;
+}
+/* --- BOX ACESSO A INFORMAÇÕES --- */
+.box-acess-information {
+    width: fit-content;
+}
+.box-acess-information .info-text {
+    display: flex;
+    flex-direction: column;
+    min-height: 25px;
+}
+.info-text a {
+    padding-top: 10px;
+}
+
+.end .end-line {
+    width: 91%;
+    height: 1px;
+    background-color: #c2c2c2;
+    margin: 0px 10px 10px 68px;
+
+}
+
+.end .end-inf {
+    display: flex;
+   align-items: center;
+   justify-content: space-between;
+    padding: 1% 5%;
+}
+
+.end-inf img {
+    width: 120px;
+}
+
+.end .txt-inf p {
+    color: #000000;
+}
+
+.icons i {
+    color: #000000;
+    font-size: 1.5em;
+    padding-right: 10px;
+}
+
 
 
 #pre-loader{
@@ -130,7 +236,9 @@ nav img{
     font-size: 16px;
     color: #fff;
 }
-
+.button-dow {
+    padding-bottom: 5%;
+}
 .botão-centro{
 
     display: inline-block;
@@ -382,6 +490,7 @@ nav img{
         margin: auto;
         text-align: center;
         padding-top: 100px;
+    
     }
 
     h3{
